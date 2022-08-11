@@ -62,8 +62,8 @@ body {
 
 .subtitle #date {
     color: #82a0bc;
-    font-family: 'Vollkorn';
-    font-weight: 500;
+    font-family: 'Vollkorn', Serif;
+    font-weight: 400;
 }
 
 p {
