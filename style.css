@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;600;700&display=swap');
 
+@font-face {
+    font-family: "volkorn";
+    src: url("../fonts/vollkorn.italic.ttf")
+}
+
 * {
     font-family: 'IBM Plex Sans', 'Vollkorn', Helvetica, sans-serif;
 }
@@ -37,7 +42,7 @@ body {
 .nav a {
     color: #82a0bc;
     text-decoration: none;
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
     font-weight: 500;
 }
 
@@ -84,14 +89,14 @@ a:hover {
 }
 
 #endnote {
-    font-family: 'Vollkorn';
-    font-style: italic;
+    font-family: 'volkorn';
+    font-style: oblique;
     letter-spacing: 0;
     margin-bottom: 60px;
 }
 
-#endnote a{
-    font-family: 'Vollkorn';
+#endnote a {
+    font-family: 'volkorn';
     font-size: 19.2px;
     line-height: 28.8px;
 
@@ -130,4 +135,18 @@ a:hover {
 
 .copyrights {
     font-size: 14px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
 }
